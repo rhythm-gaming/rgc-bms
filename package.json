@@ -1,7 +1,7 @@
 {
-  "name": "placeholder-name",
+  "name": "@rhythm-gaming/rgc-bms",
   "version": "0.0.1",
-  "description": "placeholder-description",
+  "description": "BMS/BMSON support for RGC",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,23 +13,32 @@
     "lint": "npx eslint src/",
     "test": "npx mocha"
   },
-  "keywords": [],
-  "author": "placeholder-author",
-  "license": "UNLICENSED",
+  "keywords": [
+    "RGC",
+    "BMS",
+    "BMSON",
+    "rhythm",
+    "music"
+  ],
+  "author": "Jimin Park",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.invalid/placeholder/placeholder.git"
+    "url": "git+https://github.com/rhythm-gaming/rgc-bms.git"
   },
   "bugs": {
-    "url": "https://github.invalid/placeholder/placeholder/issues"
+    "url": "https://github.com/rhythm-gaming/rgc-bms/issues"
   },
-  "homepage": "https://github.invalid/placeholder/placeholder",
+  "homepage": "https://github.com/rhythm-gaming/rgc-bms",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
-    "chai": "^4.3.10",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "chai": "^5.0.0",
     "eslint": "^8.56.0",
     "mocha": "^10.2.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@rhythm-gaming/rgc": "https://github.com/rhythm-gaming/rgc.git"
   }
 }

@@ -1,3 +1,7 @@
+# BMS/BMSON support for RGC
+
+This repository provides supports for BMS and BMSON chart formats.
+
 # Node.js TypeScript template
 
 Use this template for creating a Node.js library written in TypeScript.
