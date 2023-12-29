@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@rhythm-gaming/rgc':
-    specifier: https://github.com/rhythm-gaming/rgc.git
-    version: github.com/rhythm-gaming/rgc/b35198d79ce31c481fc1f6e3e8e3218b5dc4ee5b
+    specifier: github:rhythm-gaming/rgc
+    version: github.com/rhythm-gaming/rgc/ae145c937318ea84229bda7b5bb4a77f7dc39ca8
 
 devDependencies:
   '@typescript-eslint/eslint-plugin':
@@ -1285,11 +1285,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/rhythm-gaming/rgc/b35198d79ce31c481fc1f6e3e8e3218b5dc4ee5b:
-    resolution: {tarball: https://codeload.github.com/rhythm-gaming/rgc/tar.gz/b35198d79ce31c481fc1f6e3e8e3218b5dc4ee5b}
+  github.com/rhythm-gaming/rgc/ae145c937318ea84229bda7b5bb4a77f7dc39ca8:
+    resolution: {tarball: https://codeload.github.com/rhythm-gaming/rgc/tar.gz/ae145c937318ea84229bda7b5bb4a77f7dc39ca8}
     name: '@rhythm-gaming/rgc'
     version: 0.1.0
-    prepare: true
     requiresBuild: true
     dependencies:
       arktype: 1.0.28-alpha

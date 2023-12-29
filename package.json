@@ -39,6 +39,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@rhythm-gaming/rgc": "https://github.com/rhythm-gaming/rgc.git"
+    "@rhythm-gaming/rgc": "github:rhythm-gaming/rgc"
   }
 }
